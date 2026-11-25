@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+env/
+.env/
+
+# Datasets and recorded media
+focus_data.csv
+*.csv
+recorded_videos/
+
+# Machine learning model artifacts
+*.pkl
+*.h5
+*.joblib
+*.onnx
+
+# Document files
+*.docx
+
+# Python and IDE files
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.vscode/
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
